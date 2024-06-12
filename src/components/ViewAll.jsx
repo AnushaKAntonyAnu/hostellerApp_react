@@ -3,21 +3,7 @@ import React, { useEffect, useState } from 'react'
 
 const ViewAll = () => {
     const[data,changeData]=useState([
-        {
-            "name":"Anna",
-            "dob":"22-12-2001",
-            "course":"MCA",
-            "cyear":2023,
-            "address":"fasfvasV",
-            "place":"dsfD",
-            "district":"jhjhkjhk",
-            "email":"fuhgkrg",
-            "gurdain":"gjghbjhh",
-            "gmobileno":"jgjhj",
-            "username":"fhgjh",
-            "password":"gyugu"
-    
-        }
+        
     ])
     const fetchData=()=>{
         axios.post("http://localhost:8080/view").then(
