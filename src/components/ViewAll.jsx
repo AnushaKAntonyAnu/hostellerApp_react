@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import NavBar from './NavBar'
 
 const ViewAll = () => {
     const[data,changeData]=useState([
@@ -16,7 +17,7 @@ const ViewAll = () => {
     useEffect(()=>{fetchData()},[])
     return (
         <div>
-            {/* <NavBar/> */}
+            <NavBar/> 
             <br></br><h3><u><center>ViewAll Hosteller</center></u></h3><br></br>
             <div className="conatiner">
                 <div className="row">

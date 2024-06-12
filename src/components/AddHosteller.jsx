@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import NavBar from './NavBar'
 
 const AddHosteller = () => {
     const[data,setData]=useState(
@@ -47,7 +48,7 @@ else{
 }
 return (
 <div>
-    {/* <NavBar/> */}
+    <NavBar/> 
     <br></br><h3><u><center>Hostellers Registration</center></u></h3><br></br>
     <div className="container">
         <div className="row">
